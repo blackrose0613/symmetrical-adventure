@@ -1,0 +1,85 @@
+.intro{
+  text-align: center;
+  display: block;
+  color: black;
+}
+.info{
+  text-align: left;
+  display:block;
+  color: black;
+  font-size: 22px;
+  
+}
+.p,h2{
+  margin: 0;
+}
+.carousel{
+  position: relative;
+  width:100%;
+  height: 50rem;
+  background: rgb(238,238,238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+.wrapper{
+  width: 18rem;
+  height: 25rem;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  position: relative;
+  margin: 80px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba (0,0,0,0.068);
+ transition: .1s;
+ 
+}
+.wrapper:hover{
+  transform: translateY(-10px);
+}
+.icon{
+  position: absolute;
+  width: 240px;
+  left: 25px;
+  top: 40px;
+}
+.content-title{
+  font-size: 35px;
+  width: 100%;
+  position: absolute;
+  font-family: 'Fredoka One', cursive;
+  color: rgb(82, 82, 82);
+  letter-spacing: 2px;
+  font-weight: 600;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  text-align: center;  
+}
+ 
+.content{
+  position:absolute;
+  font-size: 17px;
+  width: 90%;
+  text-align: center;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,20%);
+  color: rgb(158, 158, 158);
+  font-family: sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.descme{
+  font-size: 20px;
+  margin-left: 140px;
+letter-spacing: 3px;
+position: absolute;
+}
+.me{
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 20px;
+}
